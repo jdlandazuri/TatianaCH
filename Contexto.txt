@@ -1,0 +1,20 @@
+Dentro de los servicios que presta Comfacauca, diferentes áreas realizan asesorías algunos son asesores de afiliaciones que se encarga de garantizar que las empresas cumplan con los requisitos de afiliación, asesores empresariales que venden servicios de la caja, por ejemplo eventos, capacitaciones, asesores de crédito que se encargan de promocionar la colocación de créditos y el recaudo de los mismos, etc.
+
+Los asesores están vinculados a un área de la caja, dependiendo del tipo de asesoría que se presta, cada asesor tiene una programación diaria de visitas de tipo (EMPRESARIA, INDIVIDUAL), la programación la construye el jefe del área a la que pertenece el asesor.
+
+Las asisgnaciones de visitas o pramación , pueden ser reasignar o canceladas, para el caso de las cancelaciones, debe existir un motivo de cancelación.
+
+Teniendo en cuencta lo anterior los actores serían ASESOR, JEFE, OBJETIVO, el módulo para el asesor, le debe permitir consultar la agenda programada por el día de la semana, pero solo puede ejecutar las visitas del día, no puede ejecutar visitas futuras.
+
+El módulo para el JEFE, debe permitir programar visitas por ASESOR, reasignar y cancelar las visitas.
+
+Las visitas se pueden cancelarse por el ASESOR antes y durante la ejecución, garantizando que se registre un motivo.
+
+EL OBJETIVO, es un afiliado a la caja o el representate de la empresa al cual se le realizará la visita, está asociado al tipo de visita (EMPRESARIAL, INDIVIDUAL).
+
+Los motivos de cancelación están dispuestos en un catálogo.
+
+Debe quedar la huella o trazabilidad del usuario que programa, reasigna o cancela las visitas.
+
+
+

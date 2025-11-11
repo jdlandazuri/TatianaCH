@@ -1,0 +1,16 @@
+Fases de la Solución:
+
+Fase 1: Diseño de la Base de Datos (MySQL)
+* Crear las tablas necesarias.
+* Definir relaciones entre entidades (usuarios, visitas, objetivos, motivos, trazabilidad).
+* Preparar el modelo para que el backend pueda conectarse fácilmente.
+
+Fase 2: Backend (Java Spring Boot o Node.js)
+* Crear endpoints para login, OTP, programación de visitas, cancelaciones, etc.
+* Validar reglas como “solo ejecutar visitas del día”.
+* Registrar trazabilidad de acciones
+
+Fase 3: Frontend (React.js)
+* Crear pantallas para ASESOR y JEFE.
+* Implementar login con Google + OTP.
+* Mostrar agenda, permitir programación, cancelación, etc.

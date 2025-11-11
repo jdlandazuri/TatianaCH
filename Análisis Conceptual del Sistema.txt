@@ -1,0 +1,51 @@
+Análisis Conceptual del Sistema
+Actores del sistema
+
+ASESOR
+
+Vinculado a un área específica.
+Recibe programación diaria de visitas.
+Puede ejecutar solo las visitas del día actual.
+Puede cancelar visitas (antes o durante la ejecución) con motivo obligatorio.
+
+2. JEFE
+
+Programa visitas para asesores.
+Puede reasignar o cancelar visitas.
+Toda acción debe dejar trazabilidad (quién la hizo y cuándo).
+
+3. OBJETIVO
+
+Persona afiliada o representante de empresa.
+Asociado a una visita de tipo EMPRESARIAL o INDIVIDUAL.
+
+Tipos de Visitas
+
+EMPRESARIAL: Dirigida a empresas.
+INDIVIDUAL: Dirigida a personas naturales.
+
+Acciones sobre las visitas
+
+Programar (solo por el JEFE).
+Reasignar (solo por el JEFE).
+Cancelar (por el JEFE o el ASESOR).
+
+Requiere motivo (desde catálogo predefinido).
+Puede ocurrir antes o durante la ejecución.
+
+Restricciones
+
+El ASESOR solo puede ejecutar visitas del día actual.
+No puede ejecutar visitas futuras.
+Toda acción debe tener trazabilidad (usuario, fecha, acción).
+
+
+Elementos clave a considerar en el diseño
+
+Catálogo de motivos de cancelación (entidad independiente).
+Agenda diaria por asesor (con filtro por día).
+Control de acceso por rol (ASESOR vs JEFE).
+Trazabilidad de acciones (auditoría).
+Estado de la visita: Programada, Ejecutada, Cancelada, Reasignada.
+Validaciones de fecha para ejecución de visitas.
+Relación entre OBJETIVO y tipo de visita.
